@@ -6,7 +6,7 @@ import os
 window = Tk()
 
 def main_window():
-    # Création de notre fenêtre
+    # Création de la fenêtre
     window.config(bg="ivory")
     # Titre de la fenêtre
     window.title("Alarm Clock")
@@ -83,5 +83,5 @@ button_alarm = Button(window, text="Initialiser", font=('Bahnschrift', 13, 'bold
                       command=setting_alarm)
 button_alarm.grid(row=6, column=1, pady=10)
 
-# Commande qui maintient la fenêtre afficher jusqu'à sa fermeture
+# Commande qui maintient la fenêtre ouverte
 window.mainloop()
